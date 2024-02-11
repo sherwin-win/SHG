@@ -1,0 +1,42 @@
+# Step 1: Create a method that belongs to an instance of the Calculator class
+def createButton(self):
+
+        '''
+        DOCSTRING: Method that creates the buttons
+        INPUT: nothing
+        OUTPUT: creates a button
+        '''
+        
+        #Step 2: We first create each button one by one with the value we want
+        #Using addButton() method which is described below
+        b0 = self.addButton(0)
+        b1 = self.addButton(1)
+        b2 = self.addButton(2)
+        b3 = self.addButton(3)
+        b4 = self.addButton(4)
+        b5 = self.addButton(5)
+        b6 = self.addButton(6)
+        b7 = self.addButton(7)
+        b8 = self.addButton(8)
+        b9 =  self.addButton(9)
+        b_add = self.addButton('+')
+        b_sub = self.addButton('-')
+        b_mult = self.addButton('*')
+        b_div = self.addButton('/')
+        b_clear = self.addButton('c')
+        b_equal = self.addButton('=')
+
+        # Step 3: Arrange the buttons into lists to represent calculator rows
+        row1=[b7,b8,b9,b_add]
+        row2=[b4,b5,b6,b_sub]
+        row3=[b1,b2,b3,b_mult]
+        row4=[b_clear,b0,b_equal,b_div]
+
+        # Step4: Assign each button to a particular location on the GUI
+        r=1
+        for row in [row1, row2, row3, row4]:
+            c=0
+            for buttn in row:
+                buttn.grid(row=r, column=c, columnspan=1)
+                c+=1
+            r+=1
