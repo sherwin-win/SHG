@@ -1,1 +1,30 @@
 
+When there is live data feed use the Clock to find the Clock time zone location matching
+     the broker server time.  Change "Clock_Normal_vs_Find_Server" to "false".  The Clock will
+     display "B" (for broker server) at the time zone location matching the broker server time.
+     You can populate the Clock with all labels to find "B" (see Clock instructions below).
+     Chances are the labels needed are already displayed.  If "B" shows in the "London" label
+     things are not so clear because London time is GMT during the non-DST time of the year
+     (winter in northern hemisphere).  During that time we can not tell from the Clock if the
+     broker server is on GMT or on London time all year.  Call your broker to find out.
+
+     You now have the Clock Proxy Server TZ location, either from the Clock or your broker.
+     Type this location name, exactly as it appears in the Clock, into the Preface input called
+     "Clock_Proxy_Server_Tz_Location".  Now change "Clock_Normal_vs_Find_Server_Tz" back to
+     "true" for normal operation.  You have successfully completed the steps to assure the
+     correct and 24/7 display of PivotsTz and market vLines.  This indicator adjusts for DST
+     changeovers when they occur twice yearly, which happens at different times at different
+     places.  This is fully automated.  No adjustments for DST are required by the user.
+
+     The default "Clock_Proxy_Server_Tz_Location" is "Helsinki" because it is the most popular
+     time zone used for broker servers.  If this is not the time zone your broker server uses,
+     then PivotsTz and vLines will display incorrectly.  So, be sure you follow the steps
+     above to confirm this default selection is correct, and if not then to find and input
+     the correct Clock Proxy Server TZ location.  Without an input this indicator will not
+     function.  Be sure that "Clock_Normal_vs_Find_Server" is "false" only when searching for
+     the Clock Proxy Server TZ location.  It must be "true" for normal indicator operation.
+
+Preview of the Displayed Access Panel and Other Indicator Features-
+This indicator places an Access Panel in the upper left corner of the chart, consisting of
+a Market Panel and a Clock Panel.  For proper display chart/Properites/Common/Show OHLC should
+be unchecked.
