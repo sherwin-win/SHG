@@ -1,0 +1,36 @@
+
+#property indicator_chart_window
+extern int    font_size = 10;
+extern color  ColorBull = DodgerBlue;
+extern color  ColorBeer = Red;
+extern string font_name = "Arial";
+extern bool   Show_Only_larger_than_ATR = true;
+extern ENUM_TIMEFRAMES ATR_TimeFrame = PERIOD_CURRENT;
+extern int    ATRPeriod = 5;
+extern double ATRMultiplier = 1;
+extern bool   Show_ATR_Value = false;
+
+
+extern string  _AlertSetting = "---Alert Settings ---";
+extern bool   alertsOn            = true;  //Turn alerts on?
+extern bool   alertsMessage       = true;  //Alerts Message true/false?
+extern bool   alertsSound         = true;   //Alerts sound true/false?
+extern bool   alertsNotification  = false;  //Alerts push notification true/false?
+extern bool   alertsEmail         = false;  //Alerts email true/false?
+extern string  soundFile = "alert.wav";
+
+
+int flagval1 = 0;
+int flagval2 = 0;
+
+int pipMult = 10000;
+
+int init()
+  {
+
+   if (StringFind(Symbol(),"JPY",0) != -1)
+   {
+      pipMult = 100;
+   }
+   
+ }
