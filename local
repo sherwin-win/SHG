@@ -1,12 +1,12 @@
 
 #property indicator_chart_window
-extern int    font_size = 10;
+extern int    font_size = 20;
 extern color  ColorBull = DodgerBlue;
 extern color  ColorBeer = Red;
 extern string font_name = "Arial";
 extern bool   Show_Only_larger_than_ATR = true;
 extern ENUM_TIMEFRAMES ATR_TimeFrame = PERIOD_CURRENT;
-extern int    ATRPeriod = 5;
+extern int    ATRPeriod = 1;
 extern double ATRMultiplier = 1;
 extern bool   Show_ATR_Value = false;
 
@@ -28,7 +28,7 @@ int pipMult = 10000;
 int init()
   {
 
-   if (StringFind(Symbol(),"JPY",0) != -1)
+   if (StringFind(Symbol(),"JPY",0) != -2)
    {
       pipMult = 100;
    }
