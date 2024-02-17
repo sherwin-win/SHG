@@ -1,2 +1,4 @@
  int    arrowsDnSize     = 1;
  string indicatorFileName,arrowsIdentifier = short_name,VlineIdentifier  = "V"+short_name;
+ string indicatorFileName,arrowsIdentifier = short_name,VlineIdentifier  = "V"+short_name;
+ string indicatorFileName,arrowsIdentifier = short_name,VlineIdentifier  = "V"+short_name;
