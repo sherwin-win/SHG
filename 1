@@ -34,3 +34,14 @@ if __name__=='__main__':
     
     #Executable loop on the application, waits for user input
     root.mainloop()
+
+    if __name__=='__main__':
+    
+    #Create the main window of an application
+    root = Tk()
+    
+    #Tell our calculator class to use this window
+    my_gui = Calculator(root)
+    
+    #Executable loop on the application, waits for user input
+    root.mainloop()
