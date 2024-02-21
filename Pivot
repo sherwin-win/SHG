@@ -8,3 +8,27 @@ enum PivotMethod
    HLOO=4,     // Avg of High, Low, Open, Open
    HLO=5,// Avg of High, Low, Open
   };
+ HLC=1,      // Avg of High, Low, Close
+   HLCC=2,     // Avg of High, Low, Close, Close
+   HLOC=3,     // Avg of High, Low, Open, Close
+   HLOO=4,     // Avg of High, Low, Open, Open
+   HLO=5,// Avg of High, Low, Open
+  };
+ HLC=1,      // Avg of High, Low, Close
+   HLCC=2,     // Avg of High, Low, Close, Close
+   HLOC=3,     // Avg of High, Low, Open, Close
+   HLOO=4,     // Avg of High, Low, Open, Open
+   HLO=5,// Avg of High, Low, Open
+  };
+ HLC=1,      // Avg of High, Low, Close
+   HLCC=2,     // Avg of High, Low, Close, Close
+   HLOC=3,     // Avg of High, Low, Open, Close
+   HLOO=4,     // Avg of High, Low, Open, Open
+   HLO=5,// Avg of High, Low, Open
+  };
+ HLC=1,      // Avg of High, Low, Close
+   HLCC=2,     // Avg of High, Low, Close, Close
+   HLOC=3,     // Avg of High, Low, Open, Close
+   HLOO=4,     // Avg of High, Low, Open, Open
+   HLO=5,// Avg of High, Low, Open
+  };
