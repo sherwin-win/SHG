@@ -22,7 +22,6 @@ When there is live data feed use the Clock to find the Clock time zone location 
      above to confirm this default selection is correct, and if not then to find and input
      the correct Clock Proxy Server TZ location.  Without an input this indicator will not
      function.  Be sure that "Clock_Normal_vs_Find_Server" is "false" only when searching for
-     the Clock Proxy Server TZ location.  It must be "true" for normal indicator operation.
 
 Preview of the Displayed Access Panel and Other Indicator Features-
 This indicator places an Access Panel in the upper left corner of the chart, consisting of
