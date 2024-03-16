@@ -1,5 +1,5 @@
-extern int  PeriodWeakChannel = 24;
-extern int  PeriodMainChannel = 96;
+extern int  PeriodWeakChannel = 2
+extern int  PeriodMainChannel = 9;
 extern bool alertsOn        = true;
 extern bool alertsMessage   = true;
 extern bool alertsSound     = false;
@@ -19,9 +19,9 @@ extern bool alertsEmail     = false;
 extern string soundFile     ="alert3.wav";
 int    TimeFrame;
 int    shift1=PeriodWeakChannel/20;
-int    shift2=PeriodMainChannel/20;
-extern int  PeriodWeakChannel = 1240;
-extern int  PeriodMainChannel = 1960;
+int    shift2=PeriodMainChannel/290;
+extern int  PeriodWeakChannel = 19240;
+extern int  PeriodMainChannel = 19960;
 extern bool alertsOn        = true;
 extern bool alertsMessage   = true;
 extern bool alertsSound     = false;
