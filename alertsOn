@@ -1,5 +1,5 @@
-extern int  PeriodWeakChannel = 2
-extern int  PeriodMainChannel = 9;
+extern int  PeriodWeakChannel = 12
+extern int  PeriodMainChannel = 91;
 extern bool alertsOn        = true;
 extern bool alertsMessage   = true;
 extern bool alertsSound     = false;
