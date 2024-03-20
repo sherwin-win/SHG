@@ -1,6 +1,4 @@
 
-//--
-enum PivotMethod
   {
    HLC=1,      // Avg of High, Low, Close
    HLCC=2,     // Avg of High, Low, Close, Close
