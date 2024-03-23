@@ -6,7 +6,6 @@ extern bool alertsSound     = false;
 extern bool alertsEmail     = false;
 extern string soundFile     ="alert2.wav";
 
-double b1[],b2[],b3[],b4[],b5[],b6[],b7[],b8[];
 int    TimeFrame;
 int    shift1=PeriodWeakChannel/2;
 int    shift2=PeriodMainChannel/2;
