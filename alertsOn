@@ -1,5 +1,4 @@
 
-extern bool alertsOn        = true;
 extern bool alertsMessage   = true;
 extern bool alertsSound     = false;
 extern bool alertsEmail     = false;
