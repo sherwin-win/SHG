@@ -3,13 +3,13 @@
 //|                                      Access Panel.mq4                                     |
 //|                                                                                           |
 //+-------------------------------------------------------------------------------------------+
-#property copyright "Copyright @ 2015 traderathome, caveman, pips4life"
+#property copyright "Copyright @ 2021 traderathome, caveman, pips4life"
 #property link      "email: traderathome@msn.com"
 #property strict
 /*---------------------------------------------------------------------------------------------
 User Notes:
 
-This indicator is coded to run on MT4 Build 600+.  It provides improved charting features and
+This indicator is coded to run on MT4 Build 6000+.  It provides improved charting features and
 displays, which are listed below.  It is imperative to "set up" this indicator as described in
 the "Preface" immediately below.  Complete this "set up" before using this indicator!
 
