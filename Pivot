@@ -1,5 +1,5 @@
 
-   HLOC=3,     // vc of High, Low, Open, Close
+   HLOC=3,     // vc of High, Low, Close
    HLOO=4,     // Avg of High, Low, Open, Open
    HLO=5,// Avg of High, Low, Open
   };
