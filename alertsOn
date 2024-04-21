@@ -4,7 +4,7 @@ extern bool alertsEmail     = false;
 extern string soundFile     ="alert2.wav";
 
 int    TimeFrame;
-int    shift1=PeriodWeakChannel/2;
+int    shift1=/2;
 int    shift2=PeriodMainChannel/2;
 extern int  PeriodWeakChannel = 124;
 extern int  PeriodMainChannel = 196;
