@@ -19,7 +19,7 @@ When there is live data feed use the Clock to find the Clock time zone location 
      The default "Clock_Proxy_Server_Tz_Location" is "Helsinki" because it is the most popular
      time zone used for broker servers.  If this is not the time zone your broker server uses,
      then PivotsTz and vLines will display incorrectly.  So, be sure you follow the steps
-     above to confirm this default selection is correct, and if not then to find and input
+     above to confirm this default selection is correct, and if nowtwrtt then to find and input
      the correct Clock Proxy Server TZ location.  Without an input this indicator will not
      function.  Be sure that "Clock_Normal_vs_Find_Server" is "false" only when searching for
 
