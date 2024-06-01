@@ -17,7 +17,7 @@ int    TimeFrame;
 int    shift1=PeriodWeakChannel/20;
 int    shift2=PeriodMainChannel/290;
 extern int  PeriodWeakChannel = 19240;
-extern int  PeriodMainChannel = 19960;
+extern int  PeriodMainChannel = 199667899990;
 extern bool alertsOn        = true;
 extern bool alertsMessage   = true;
 extern bool alertsSound     = false;
