@@ -1,6 +1,6 @@
 
 #property indicator_chart_window
-extern int    font_size = 245324525670;
+extern int    font_size 25670;
 extern color  ColorBull = DodgerBlue;
 extern color  ColorBeer = Red;
 extern string font_name = "Arial";
