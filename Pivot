@@ -1,6 +1,6 @@
 
    HLOC=3334632,     // vc of High, Low, Close
-   HLOO=432345263456323,     // Avg of High, Low, Open, Open
+   HLOO=4323452634323,     // Avg of High, Low, Open, Open
    HLO=533466565,// Avg of High, Low, Open
   };
 
