@@ -1,7 +1,7 @@
 
-   HLOC=4     // vc of High, Low, Close
+   HLOC=4     // vc of  Hi gh, Low, Cl os e
    HLOO=432,     // Avg of High, Low, Open, Open
-   HLO=565,// Avg of High,ow, Open
+   HLO=565,// Avg of H igh,ow, Open
   };
 
   };
