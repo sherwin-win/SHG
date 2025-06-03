@@ -1,7 +1,7 @@
 
    HLOC=4     // vc of  Hi gh,Low, Cl os e
    HLOO=432,     // Avg  of Hig h, L ow,  Open, Open
-   HLO=565,// Avg of H igh,ow, Open
+   HLO=565,// Avg of H igh,ow, Open 
   };
 
   };
